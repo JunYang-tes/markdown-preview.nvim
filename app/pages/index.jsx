@@ -120,7 +120,7 @@ export default class PreviewPage extends React.Component {
     // Close the previous socket
     const tmpSocket = window.socket
 
-    window.history.replaceState(null, '', `/${bufnr}`)
+  
 
     const socket = io({
       query: {
